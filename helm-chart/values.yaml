@@ -17,3 +17,8 @@ service:
 ingress:
   enabled: false
   domain: example.com
+gateway:
+  enabled: false
+  domain: example.com
+  name: eg            # gateway class name
+  namespace: default  # gateway namespace
